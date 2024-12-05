@@ -1,0 +1,87 @@
+.about-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #6b4f1f;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about section>section{
+ display:  flex;
+}
+.about-img {
+    width: auto;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.about-values {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about-values h3 {
+    font-size: 2em;
+    color: #6b4f1f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-values ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about-values ul li {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.about-values ul li::before {
+    content: "\2022";
+    color: #6b4f1f;
+    font-size: 1.8em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
