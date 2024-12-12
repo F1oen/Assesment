@@ -98,6 +98,12 @@ a {
     justify-content: center;
 }
 
+section.content img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
 .shaped article,
 .content>article>section {
     padding: 20px;
@@ -183,17 +189,21 @@ figure img {
     .content {
         flex-direction: column;
     }
+
     .nav {
         flex-wrap: wrap;
     }
+
     .shaped {
         text-align: center;
     }
+
     .shaped img {
         shape-outside: none;
         float: none;
 
     }
+
     .shaped p {
         text-align: unset;
     }
